@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Tapia | Lease-Ups &amp; Leasing, Vancouver</title>
+  <meta name="description" content="Michael Tapia, Vancouver lease-up and leasing lead: non-profit and market rental lease-ups, a multifamily portfolio, strata leasing and weekly performance reporting.">
+  <meta name="theme-color" content="#f5f2ec">
+  <meta name="author" content="Michael Tapia">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Michael Tapia | Lease-Ups &amp; Leasing, Vancouver">
+  <meta property="og:description" content="Lease-up leasing, from first inquiry to signed lease, with the numbers behind it.">
+  <meta property="og:image" content="assets/img/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top" aria-label="Michael Tapia, back to top">
+        <span class="brand__mark" aria-hidden="true">MT</span>
+        <span class="brand__name">Michael Tapia</span>
+      </a>
+      <nav class="site-nav" aria-label="Sections">
+        <ul>
+          <li><a href="#route">Lease-ups</a></li>
+          <li><a href="#multifamily">Multifamily</a></li>
+          <li><a href="#strata">Strata</a></li>
+          <li><a href="#westend">West End</a></li>
+          <li><a href="#reporting">Reporting</a></li>
+          <li class="nav-cta-item"><a class="nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__text">
+            <p class="eyebrow">Lease-Ups &amp; Leasing · Vancouver, BC</p>
+            <h1 class="hero__name">Michael Tapia</h1>
+            <p class="hero__headline">Lease-up leasing, from first inquiry to signed lease.</p>
+            <p class="hero__intro">I lead leasing for new and established rental communities across Vancouver: market research and pricing, lead follow-up, tours, applicant screening, leases and move-ins. I track every step, so owners always know what's working and what to change.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#route">
+                See the buildings
+                {{icon:arrow-down}}
+              </a>
+              <a class="btn btn--ghost" href="sample-dashboard/" target="_blank" rel="noopener">
+                Sample lease-up dashboard
+                {{icon:arrow-up-right}}
+                <span class="visually-hidden">(opens in a new tab)</span>
+              </a>
+            </div>
+          </div>
+
+          <figure class="hero__portrait">
+            <div class="portrait-frame">
+              <picture>
+                <source srcset="assets/img/profile/michael-tapia.webp" type="image/webp">
+                <img src="assets/img/profile/michael-tapia.jpg" width="800" height="800" alt="Portrait of Michael Tapia in a navy suit">
+              </picture>
+            </div>
+            <figcaption class="portrait-card">
+              <span><i class="status-dot" aria-hidden="true"></i>Currently</span>
+              <strong>{{current_title}}</strong>
+              <span>Basepoint Real Estate Group · Vancouver</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="skyline" data-draw>
+          {{sketch:skyline}}
+        </div>
+
+        <dl class="facts">
+          <div class="fact reveal">
+            <dt class="fact__label">Rental communities where I'm head leasing coordinator</dt>
+            <dd class="fact__value">4</dd>
+          </div>
+          <div class="fact reveal">
+            <dt class="fact__label">Homes in my next lease-up, starting December 2026</dt>
+            <dd class="fact__value">146</dd>
+          </div>
+          <div class="fact reveal">
+            <dt class="fact__label">Multifamily rental buildings in my care</dt>
+            <dd class="fact__value">6</dd>
+          </div>
+          <div class="fact reveal">
+            <dt class="fact__label">{{fact4_label}}</dt>
+            <dd class="fact__value">{{fact4_value}}</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============================== 01 LEASE-UP ROUTE ============================== -->
+    <section class="route-section" id="route" aria-labelledby="route-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">01 · Lease-up portfolio</p>
+          <h2 class="section-title" id="route-title">{{route_count}} stops across <em>Vancouver.</em></h2>
+          <p class="section-lead">Four rental communities where I'm the head leasing coordinator, plus a new market rental I helped lease. Ordered by leasing story, not by map.</p>
+        </div>
+
+        <div class="route">
+
+{{route}}
+
+          <a class="route-end" href="#contact">
+            <span class="route-end__pin" aria-hidden="true"></span>
+            <span class="eyebrow">Next stop</span>
+            <span class="route-end__title">Your building.</span>
+            <span class="route-end__cta">Let's talk about your next lease-up
+              {{icon:arrow-right}}
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== 02 MULTIFAMILY ============================== -->
+    <section class="ops" id="multifamily" aria-labelledby="mf-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">02 · Multifamily portfolio</p>
+          <h2 class="section-title" id="mf-title">{{mf_count}} rental buildings, <em>in my care.</em></h2>
+          <p class="section-lead">I'm in charge of Basepoint's multifamily rental buildings: leasing vacant suites, resident communication, inspections, maintenance follow-up and suite turnovers.</p>
+        </div>
+
+        <div class="mf-grid">
+{{multifamily}}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== 03 STRATA ============================== -->
+    <section class="strata" id="strata" aria-labelledby="strata-title">
+      <div class="container">
+        <div class="strata__layout">
+          <div class="strata__intro">
+            <div class="section-head">
+              <p class="eyebrow">03 · Strata leasing</p>
+              <h2 class="section-title" id="strata-title">Downtown &amp; <em>Main Street.</em></h2>
+              <p class="section-lead">I lead leasing for individually owned condos in the downtown and Main Street area of Basepoint's strata portfolio, from rental comps and pricing through staging, listing and application review. I check tenant references and place each tenant, matching qualified applicants with the owner's goals.</p>
+            </div>
+            <ul class="checklist">
+              <li>{{icon:check}}Rental comps and pricing</li>
+              <li>{{icon:check}}Staging suites for photos and showings</li>
+              <li>{{icon:check}}Listings and showings</li>
+              <li>{{icon:check}}Application review</li>
+              <li>{{icon:check}}Tenant references</li>
+              <li>{{icon:check}}Tenant placement and move-in</li>
+            </ul>
+          </div>
+          <div class="strata__cards">
+{{strata}}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== 04 WEST END ============================== -->
+    <section class="westend" id="westend" aria-labelledby="we-title">
+      <div class="container">
+        <div class="westend__head">
+          <div class="section-head">
+            <p class="eyebrow">04 · West End rental leasing</p>
+            <h2 class="section-title" id="we-title">Six West End buildings, <em>one rental portfolio.</em></h2>
+            <p class="section-lead">As a contractor for Forth Gen Holdings (December 2024 to April 2025), I handled leasing across their West End rental buildings, including furnished and winter rentals that brought in more than $50K.</p>
+          </div>
+          <div>
+            <p class="roles-label">What I handled</p>
+            <ul class="roles"><li>Apartment tours</li><li>Listings &amp; virtual tours</li><li>Marketplace ad campaigns</li><li>Prospect &amp; tenant support</li></ul>
+          </div>
+        </div>
+        <div class="we-grid">
+{{westend}}
+        </div>
+        <p class="westend__note">Forth Gen Holdings' West End buildings. Home counts and years from City of Vancouver rental data.</p>
+      </div>
+    </section>
+
+    <!-- ============================== HOW I RUN A LEASE-UP ============================== -->
+    <section class="process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">How I run a lease-up</p>
+          <h2 class="section-title" id="process-title">One process, <em>every</em> building.</h2>
+          <p class="section-lead">A 146-home lease-up and a single downtown condo look nothing alike, but the work follows the same seven steps, and the last one feeds back into the first.</p>
+        </div>
+
+        <ol class="process__steps">
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            <h3 class="step__title">Market &amp; price</h3>
+            <p class="step__text">Rental comps, competitor checks and recommended rents before launch.</p>
+          </li>
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4h3l6 4V6l-6 4H3zM16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12"/></svg>
+            <h3 class="step__title">Launch &amp; list</h3>
+            <p class="step__text">Staging, photos, floor plans and listings that answer questions before they're asked.</p>
+          </li>
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4zM8 9h8M8 12h5"/></svg>
+            <h3 class="step__title">Manage leads</h3>
+            <p class="step__text">Fast, organized follow-up on every inquiry, tracked by source in the CRM.</p>
+          </li>
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V3h12v18M3 21h18M14.5 12h.01"/></svg>
+            <h3 class="step__title">Tour &amp; close</h3>
+            <p class="step__text">In-person and virtual tours, objections answered, follow-up until a decision.</p>
+          </li>
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 21H6V3h8l4 4v4M14 3v4h4"/><circle cx="16.5" cy="16.5" r="3"/><path d="m18.7 18.7 2.3 2.3"/></svg>
+            <h3 class="step__title">Screen applicants</h3>
+            <p class="step__text">Income, references and documents reviewed against each building's criteria.</p>
+          </li>
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M16 7l3 3M14 9l2 2"/></svg>
+            <h3 class="step__title">Sign &amp; move in</h3>
+            <p class="step__text">Tenancy agreements, deposits, inspections, keys and fobs.</p>
+          </li>
+          <li class="step reveal">
+            <svg class="icon step__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16M8 15l3-4 3 2 5-6"/></svg>
+            <h3 class="step__title">Report weekly</h3>
+            <p class="step__text">Occupancy, pace, funnel and recommended changes, every week.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================== LEASING INTELLIGENCE ============================== -->
+    <section class="intel" id="reporting" aria-labelledby="intel-title">
+      <div class="container intel__layout">
+        <div>
+          <div class="section-head">
+            <p class="eyebrow">Leasing intelligence</p>
+            <h2 class="section-title" id="intel-title">Every lease-up produces data. <em>I use it.</em></h2>
+            <p class="section-lead">I track lead sources, tour conversion, applicant patterns, objections, pricing and leasing pace, then turn them into a weekly owner report with clear recommendations.</p>
+          </div>
+          <ul class="checklist">
+            <li>{{icon:check}}Weekly occupancy and pace against target</li>
+            <li>{{icon:check}}Conversion from lead to tour to signed lease</li>
+            <li>{{icon:check}}Lead-source volume and quality</li>
+            <li>{{icon:check}}Rent achieved by unit type</li>
+            <li>{{icon:check}}Prospect feedback and objections</li>
+            <li>{{icon:check}}Recommended actions for the week</li>
+          </ul>
+        </div>
+
+        <a class="intel__preview reveal" href="sample-dashboard/" target="_blank" rel="noopener">
+          <span class="intel__badge">Sample data</span>
+          <span class="intel__title">Sample Residences · Week 16</span>
+          <span class="intel__kpis">
+            <span><b>82%</b>Committed occupancy</span>
+            <span><b>43%</b>Tour to application</span>
+            <span><b>+2</b>Homes ahead of pace</span>
+          </span>
+          <span class="intel__funnel" aria-hidden="true">
+            <span style="--w:100%"><i>Leads</i>1,440</span>
+            <span style="--w:62%"><i>Tours</i>250</span>
+            <span style="--w:40%"><i>Applications</i>108</span>
+            <span style="--w:34%"><i>Leases</i>92</span>
+          </span>
+          <span class="intel__cta">Open the sample dashboard {{icon:arrow-up-right}}<span class="visually-hidden">(opens in a new tab)</span></span>
+          <span class="intel__note">The format I use on active lease-ups. Building and numbers are fictional.</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================== WHAT AN OWNER GETS ============================== -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What an owner gets</p>
+          <h2 class="section-title" id="services-title">Your building. <em>One point of contact.</em></h2>
+        </div>
+        <ul class="capabilities capabilities--light">
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            <h3>Leasing strategy</h3>
+            <p>Market positioning, rental comps and recommended asking rents by unit type.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10v4h3l6 4V6l-6 4H3zM16 9a4 4 0 0 1 0 6"/></svg>
+            <h3>Launch &amp; marketing</h3>
+            <p>Staging, photos and listings, plus feedback on which channels bring qualified prospects.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4zM8 9h8M8 12h5"/></svg>
+            <h3>Lead management</h3>
+            <p>Fast follow-up, qualification and CRM discipline on every inquiry.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V3h12v18M3 21h18M14.5 12h.01"/></svg>
+            <h3>Tours &amp; closing</h3>
+            <p>In-person and virtual tours, follow-up and tour-to-lease conversion tracking.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 21H6V3h8l4 4v4M14 3v4h4"/><circle cx="16.5" cy="16.5" r="3"/><path d="m18.7 18.7 2.3 2.3"/></svg>
+            <h3>Applicant processing</h3>
+            <p>Income verification, references and credit-informed screening, including rent-geared-to-income.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M16 7l3 3M14 9l2 2"/></svg>
+            <h3>Leases &amp; move-ins</h3>
+            <p>Tenancy agreements, deposits, inspections, keys and fobs, coordinated for a smooth first day.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16M8 15l3-4 3 2 5-6"/></svg>
+            <h3>Owner reporting</h3>
+            <p>Weekly occupancy, pace, pricing, objections and recommendations.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4a5 5 0 0 0-4.6 6.9L4 17.3V20h2.7l6.4-6.4A5 5 0 0 0 20 9l-3 1-2-2 1-3z"/></svg>
+            <h3>Building operations</h3>
+            <p>Resident communication, inspections, maintenance follow-up and suite turnovers.</p>
+          </li>
+          <li class="capability reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20v-6h14v6M7 14V9h10v5M12 9V6M10 6h4"/></svg>
+            <h3>Front desk &amp; concierge</h3>
+            <p>Resident and visitor service, building access, deliveries and contractor visits.</p>
+          </li>
+        </ul>
+        <p class="services__close">The goal isn't activity. It's finding what stops units from leasing, then adjusting pricing, marketing and follow-up until the building is stabilized.</p>
+      </div>
+    </section>
+
+    <!-- ============================== EXPERIENCE ============================== -->
+    <section class="experience" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Experience</p>
+          <h2 class="section-title" id="exp-title">Leasing, operations <em>and strata.</em></h2>
+        </div>
+
+        <div class="exp-layout">
+          <ol class="timeline">
+{{jobs}}
+            <li class="job job--earlier reveal">
+              <p class="job__when">2017 to 2024</p>
+              <div>
+                <h3 class="job__role">Earlier experience</h3>
+                <p class="job__text">Client service and operations roles in Canada, the US and Ecuador. Full history on <a href="https://www.linkedin.com/in/migueltapiarosero/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+              </div>
+            </li>
+          </ol>
+
+          <aside class="buildings-list reveal" aria-labelledby="bl-title">
+            <p class="eyebrow">Buildings I've worked in</p>
+            <h3 id="bl-title">{{fact4_value}} properties across Metro Vancouver.</h3>
+{{building_groups}}
+          </aside>
+        </div>
+
+        <ul class="skills" aria-label="Skills">
+          <li>English &amp; Spanish</li>
+          <li>Available evenings &amp; weekends during lease-ups</li>
+          <li>BC Residential Tenancy Act</li>
+          <li>Rent-geared-to-income eligibility</li>
+          <li>Rental comps &amp; pricing</li>
+          <li>Listings &amp; virtual tours</li>
+          <li>Lead tracking &amp; CRM</li>
+          <li>Leasing dashboards &amp; reporting</li>
+          <li>Strata documentation &amp; Form K</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== BROKERAGE ============================== -->
+    <section class="brokerage" aria-labelledby="brokerage-title">
+      <div class="container brokerage__inner">
+        <div class="brokerage__logo">{{brokerage_logo}}</div>
+        <div>
+          <p class="eyebrow" id="brokerage-title">Brokerage</p>
+          <p class="brokerage__text">{{brokerage_text}}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__inner">
+        <p class="contact__sub">Lease-ups · Leasing · Multifamily · Metro Vancouver</p>
+        <h2 class="contact__title" id="contact-title">Let's talk about <em>your next lease-up.</em></h2>
+        <ul class="contact__list">
+          <li>
+            <a class="contact__item" href="mailto:michael@basepointpm.com">
+              {{icon:mail}}
+              <span><span class="contact__label">Email</span>michael@basepointpm.com</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact__item" href="tel:+16042131171">
+              {{icon:phone}}
+              <span><span class="contact__label">Phone</span>604-213-1171</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact__item" href="https://www.linkedin.com/in/migueltapiarosero/" target="_blank" rel="noopener">
+              {{icon:arrow-up-right}}
+              <span><span class="contact__label">LinkedIn</span>in/migueltapiarosero</span>
+            </a>
+          </li>
+        </ul>
+        <p class="contact__note">Résumé and references available on request.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Michael Tapia (Miguel Angel Tapia Rosero) · Vancouver, BC</p>
+      <p>Building sketches drawn for this site. Renderings are labelled. No tenant, applicant or owner information is shown.</p>
+    </div>
+  </footer>
+</body>
+</html>
